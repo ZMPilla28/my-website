@@ -1,0 +1,33 @@
+{
+  "name": "zoe",
+  "version": "1.0.0",
+  "description": "The website of me",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "vdev": "nuxt",
+    "vbuild": "nuxt build",
+    "vstart": "nuxt start",
+    "vgenerate": "nuxt generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZMPilla28/my-website.git"
+  },
+  "keywords": [
+    "zoe",
+    "pilla"
+  ],
+  "author": "Zoe Pilla",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "ipfs": "^0.54.2",
+    "newrelic": "^4.10.0",
+    "nuxt": "latest",
+    "orbit-db": "^0.26.0"
+  }
+}
